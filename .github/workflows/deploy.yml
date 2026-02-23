@@ -1,12 +1,12 @@
 name: deploy
 # This workflow deploys the site to GitHub Pages when changes are pushed to the main branch.
-# on:
-#   push:
-#     branches: [ "main" ]
+on:
+  push:
+    branches: [ "main" ]
 
 # For manual trigger from the Actions tab
-on:
-  workflow_dispatch:
+# on:
+#   workflow_dispatch:
 
 permissions:
   contents: write
