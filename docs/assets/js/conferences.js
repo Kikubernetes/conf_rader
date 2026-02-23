@@ -1,22 +1,14 @@
-// async function loadConfs() {
-//   const res = await fetch("./assets/data/conferences.json");
-//   return await res.json();
-// }
-
 async function loadConfs() {
   const base = new URL("..", window.location.href); // /conferences/ → /conf_rader/
-  const res = await fetch(new URL("assets/data/conferences.json", base));
+  const url = new URL("assets/data/conferences.json", base);
+  const res = await fetch(url.toString(), { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to fetch JSON: ${res.status}`);
   return await res.json();
 }
 
 function linkCell(name, url) {
   if (!url) return name;
-  const a = document.createElement("a");
-  a.href = url;
-  a.textContent = name;
-  a.target = "_blank";
-  a.rel = "noopener";
-  return a.outerHTML;
+  return `<a href="${url}" target="_blank" rel="noopener">${name}</a>`;
 }
 
 function parseISODate(s) {
@@ -25,7 +17,20 @@ function parseISODate(s) {
   return isNaN(d.getTime()) ? null : d;
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
+async function initConferenceTable() {
+  const tableEl = document.querySelector("#confTable");
+  if (!tableEl) return;
+
+  // DataTables がロードされていない場合は何もしない（原因切り分け用）
+  if (typeof DataTable === "undefined") {
+    console.error("DataTable is undefined: DataTables library not loaded.");
+    return;
+  }
+
+  // 二重初期化防止（ページ遷移で複数回呼ばれるため）
+  if (tableEl.dataset.dtInitialized === "1") return;
+  tableEl.dataset.dtInitialized = "1";
+
   const data = await loadConfs();
 
   const today = new Date();
@@ -33,16 +38,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   let showPast = document.getElementById("showPast")?.checked ?? true;
 
-  // DataTables 行フィルタ（期限切れ表示切替）
+  // 期限切れ表示切替
   DataTable.ext.search.push((settings, searchData, index, rowData) => {
     if (showPast) return true;
     const sort = rowData?.deadline?.sort ?? null;
     const d = parseISODate(sort);
-    if (!d) return true;      // sortなし（不明・未発表）は表示
-    return d >= today;        // 過去は除外
+    if (!d) return true; // sortなし（未発表等）は表示
+    return d >= today;
   });
 
-  const table = new DataTable("#confTable", {
+  const dt = new DataTable("#confTable", {
     data,
     columns: [
       { data: null, render: (d) => linkCell(d.name, d.url) },
@@ -69,20 +74,25 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   // Area filter
-  const area = document.getElementById("areaFilter");
-  if (area) {
-    area.addEventListener("change", () => {
-      const v = area.value;
-      table.column(1).search(v ? `^${v}$` : "", true, false).draw();
-    });
-  }
+  document.getElementById("areaFilter")?.addEventListener("change", (e) => {
+    const v = e.target.value;
+    dt.column(1).search(v ? `^${v}$` : "", true, false).draw();
+  });
 
   // Show past toggle
-  const showPastEl = document.getElementById("showPast");
-  if (showPastEl) {
-    showPastEl.addEventListener("change", () => {
-      showPast = showPastEl.checked;
-      table.draw();
-    });
-  }
-});
+  document.getElementById("showPast")?.addEventListener("change", (e) => {
+    showPast = e.target.checked;
+    dt.draw();
+  });
+}
+
+// Material for MkDocs の instant navigation 対応
+if (typeof document$ !== "undefined" && document$?.subscribe) {
+  document$.subscribe(() => {
+    initConferenceTable().catch(console.error);
+  });
+} else {
+  document.addEventListener("DOMContentLoaded", () => {
+    initConferenceTable().catch(console.error);
+  });
+}
