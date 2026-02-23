@@ -58,20 +58,40 @@ async function initConferenceTable() {
       { data: "deadline.text", defaultContent: "" },
       { data: "tags", render: (t) => (t || []).join(", ") },
     ],
+  //   columnDefs: [
+  //     {
+  //       targets: 5, // Deadline列
+  //       render: (data, type, row) => {
+  //         if (type === "sort" || type === "type") {
+  //           return row?.deadline?.sort ?? "9999-12-31";
+  //         }
+  //         return row?.deadline?.text ?? "";
+  //       },
+  //     },
+  //   ],
+  //   order: [[5, "asc"]],
+  //   pageLength: 50,
+  // });
     columnDefs: [
-      {
-        targets: 5, // Deadline列
-        render: (data, type, row) => {
-          if (type === "sort" || type === "type") {
-            return row?.deadline?.sort ?? "9999-12-31";
-          }
-          return row?.deadline?.text ?? "";
-        },
+    { targets: 0, width: "28%" },
+    { targets: 1, width: "10%" },
+    { targets: 3, width: "10%" },
+    { targets: 4, width: "10%" },
+    {
+      targets: 5,
+      render: (data, type, row) => {
+        if (type === "sort" || type === "type") {
+          return row?.deadline?.sort ?? "9999-12-31";
+        }
+        return row?.deadline?.text ?? "";
       },
-    ],
-    order: [[5, "asc"]],
-    pageLength: 50,
-  });
+    },
+  ],
+
+  autoWidth: false,
+  order: [[5, "asc"]],
+  pageLength: 50,
+});
 
   // Area filter
   document.getElementById("areaFilter")?.addEventListener("change", (e) => {
