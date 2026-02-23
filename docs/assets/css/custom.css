@@ -13,7 +13,7 @@
 /* Name列（1列目）を広げる */
 #confTable th:nth-child(1),
 #confTable td:nth-child(1) {
-  width: 80% !important;
+  width: 10% !important;
   white-space: normal;
   word-break: break-word;
 }
