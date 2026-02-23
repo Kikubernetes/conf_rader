@@ -1,5 +1,11 @@
+// async function loadConfs() {
+//   const res = await fetch("./assets/data/conferences.json");
+//   return await res.json();
+// }
+
 async function loadConfs() {
-  const res = await fetch("./assets/data/conferences.json");
+  const base = new URL("..", window.location.href); // /conferences/ → /conf_rader/
+  const res = await fetch(new URL("assets/data/conferences.json", base));
   return await res.json();
 }
 
