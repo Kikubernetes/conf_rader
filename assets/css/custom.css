@@ -1,0 +1,24 @@
+/* Name列（1列目）を広げる
+#confTable th:nth-child(1),
+#confTable td:nth-child(1) {
+  width: 30%;
+} */
+
+/* テーブルレイアウトを固定（列幅指定を効かせる） */
+#confTable {
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+
+/* 本文コンテナの最大幅を広げる（デフォルトよりワイドに） */
+.md-grid {
+  max-width: 1600px; /* 好みで 1400〜1900 くらい */
+}
+
+/* Name列（1列目）を広げる */
+#confTable th:nth-child(1),
+#confTable td:nth-child(1) {
+  width: 10% !important;
+  white-space: normal;
+  word-break: break-word;
+}
