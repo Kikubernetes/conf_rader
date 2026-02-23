@@ -2,6 +2,9 @@ site_name: My Conference Radar
 theme:
   name: material
 
+plugins:
+  - search
+
 nav:
   - Home: index.md
   - Conferences: conferences.md
