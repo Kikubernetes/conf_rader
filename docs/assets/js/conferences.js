@@ -73,9 +73,9 @@ async function initConferenceTable() {
   //   pageLength: 50,
   // });
     columnDefs: [
-    { targets: 0, width: "28%" },
+    { targets: 0, width: "20%" },
     { targets: 1, width: "10%" },
-    { targets: 3, width: "10%" },
+    { targets: 3, width: "13%" },
     { targets: 4, width: "10%" },
     {
       targets: 5,
@@ -86,6 +86,7 @@ async function initConferenceTable() {
         return row?.deadline?.text ?? "";
       },
     },
+    { targets: 6, width: "15%" },
   ],
 
   autoWidth: false,
