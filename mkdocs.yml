@@ -7,6 +7,7 @@ nav:
   - Conferences: conferences.md
 
 extra_javascript:
+  - https://code.jquery.com/jquery-3.7.1.min.js
   - https://cdn.datatables.net/2.0.8/js/dataTables.min.js
   - assets/js/conferences.js
 
