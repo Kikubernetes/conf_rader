@@ -1,5 +1,5 @@
 /* Name列（1列目）を広げる */
 #confTable th:nth-child(1),
 #confTable td:nth-child(1) {
-  width: 20%;
+  width: 30%;
 }
