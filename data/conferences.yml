@@ -1,17 +1,4 @@
-- name: ISMRM 2026(test)
-  area: international
-  start: 2026-05-09
-  end: 2026-05-14
-  location: Bordeaux, France
-  deadline:
-    text: 10月上旬（予想）
-    sort: 2025-10-05
-    until: 2025-10-15
-    type: estimated
-  url: https://example.org
-  tags: [MRI]
-
-  # --- 日本神経放射線学会（次回は未公表のため推測） ---
+# --- 日本神経放射線学会（次回は未公表のため推測） ---
 - name: 日本神経放射線学会（次回：推定）
   area: domestic
   start: 2027-02-19
@@ -30,7 +17,7 @@
   area: domestic
   start: 2027-04-15
   end: 2027-04-18
-  location: Yokohama (Pacifico Yokohama)
+  location: 横浜 (Pacifico Yokohama)
   deadline:
     text: 10月中旬（予想：前年は10/17正午）
     sort: 2026-10-16
@@ -58,7 +45,7 @@
   area: domestic
   start: 2026-03-20
   end: 2026-03-21
-  location: Himeji (Acrié Himeji)
+  location: 姫路 (Acrié Himeji)
   deadline:
     text: 2025/12/22 17:00（延長後）
     sort: 2025-12-22
@@ -67,7 +54,7 @@
   url: https://plaza.umin.ac.jp/jhbm28/
   tags: [brain-function, MRI]
 
-  # --- JHBM ---
+# --- JHBM 2027 ---
 - name: 第29回日本ヒト脳マッピング学会大会（JHBM 2027）
   area: domestic
   start: 2027-03-26（予想）
@@ -100,7 +87,7 @@
   area: domestic
   start: 2026-10-16
   end: 2026-10-18
-  location: Kagoshima (SHIROYAMA HOTEL kagoshima)
+  location: 鹿児島 (SHIROYAMA HOTEL kagoshima)
   deadline:
     text: 5–6月頃（予想）
     sort: 2026-05-31
@@ -165,7 +152,7 @@
   url: https://www.esmrmb.org/
   tags: [MRI]
 
-# --- OHBM（開催日は公式、締切は前年OHBMの募集期間から推測） ---
+# --- OHBM　2027 ---
 - name: OHBM 2027
   area: international
   start: 2027-06-26
@@ -179,18 +166,18 @@
   url: https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3298
   tags: [brain-function, MRI]
 
-# --- ISMRM（2026は直近締切が残っているので2026を採用） ---
-- name: ISMRM 2026
+# --- ISMRM 2027 ---
+- name: ISMRM 2027
   area: international
-  start: 2026-05-09
-  end: 2026-05-14
-  location: Cape Town, South Africa
+  start: 2027-05-08
+  end: 2027-05-13
+  location: Vancouver, Canada
   deadline:
-    text: 2026/03/02
-    sort: 2026-03-02
-    until: 2026-03-02
-    type: fixed
-  url: https://www.ismrm.org/26m/
+    text: 2026/10月下旬（予想：ISMRM 2026は10/29締切）
+    sort: 2026-10-29
+    until: 2026-10-29
+    type: estimated
+  url: https://www.ismrm.org/meetings-workshops/future-ismrm-meetings/
   tags: [MRI]
 
 # --- 臨床MR脳機能研究会（演題募集は「未定」表記のため推測） ---
@@ -198,7 +185,7 @@
   area: domestic
   start: 2026-07-25
   end: 2026-07-25
-  location: Tokyo (Urban Net Kanda Conference)
+  location: 東京、神田 (Urban Net Kanda Conference)
   deadline:
     text: 4月頃（予想：例年春に募集開始）
     sort: 2026-04-15
@@ -212,7 +199,7 @@
   area: domestic
   start: 2026-11-19
   end: 2026-11-21
-  location: Himeji (Acrié Himeji)
+  location: 姫路 (Acrié Himeji)
   deadline:
     text: 2026/04/01–2026/05/07
     sort: 2026-05-07
@@ -226,7 +213,7 @@
   area: international
   start: 2026-10-10
   end: 2026-10-12
-  location: VEA Newport Beach | Newport Beach, CA, USA
+  location: Newport Beach, CA, USA
   deadline:
     text: 2026/06/19（受付中）
     sort: 2026-06-19
