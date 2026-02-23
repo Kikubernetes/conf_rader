@@ -222,7 +222,7 @@
   tags: [nuclear-medicine]
 
 # --- ASFNR 2026 ---
-  - name: ASFNR 2026
+- name: ASFNR 2026
   area: international
   start: 2026-10-10
   end: 2026-10-12
