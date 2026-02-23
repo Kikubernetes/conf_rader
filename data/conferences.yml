@@ -5,7 +5,7 @@
   end: 2027-02-20
   location: 熊本 (熊本城ホール)
   deadline:
-    text: 10月中旬（予想：前年は10/16正午）
+    text: 2026/10月中旬（予想：前年は10/16正午）
     sort: 2026-10-15
     until: 2026-10-16
     type: estimated
@@ -19,7 +19,7 @@
   end: 2027-04-18
   location: 横浜 (Pacifico Yokohama)
   deadline:
-    text: 10月中旬（予想：前年は10/17正午）
+    text: 2026/10月中旬（予想：前年は10/17正午）
     sort: 2026-10-16
     until: 2026-10-23
     type: estimated
@@ -33,7 +33,7 @@
   end: 2026-09-13
   location: 旭川 (旭川市民文化会館、OMO7旭川)
   deadline:
-    text: 5月下旬（予想：前年は6/30（10月開催））
+    text: 2026/5月下旬（予想：前年は6/30（10月開催））
     sort: 2026-06-19
     until: 2026-06-30
     type: estimated
@@ -75,7 +75,7 @@
   end: 2027-03-07
   location: Vienna, Austria
   deadline:
-    text: 8月上旬〜10月上旬（予想：ECR2026は8/4–10/5）
+    text: 2026/8月上旬〜10月上旬（予想：ECR2026は8/4–10/5）
     sort: 2026-10-05
     until: 2026-10-05
     type: estimated
@@ -89,7 +89,7 @@
   end: 2026-10-18
   location: 鹿児島 (SHIROYAMA HOTEL kagoshima)
   deadline:
-    text: 5–6月頃（予想）
+    text: 2026/5–6月頃（予想）
     sort: 2026-05-31
     until: 2026-06-30
     type: estimated
@@ -117,7 +117,7 @@
   end: 2027-06-08
   location: Washington, DC, USA
   deadline:
-    text: 1月中旬（予想：前年は1/13）
+    text: 2027/1月中旬（予想：前年は1/13）
     sort: 2027-01-13
     until: 2027-02-06
     type: estimated
@@ -127,11 +127,11 @@
 # --- ASNR（次回情報が未公表のため推測。締切時期はASNR 2026実績から） ---
 - name: ASNR Annual Meeting（次回：推定）
   area: international
-  start: 2027-05-15
-  end: 2027-05-20
+  start: 2027-05-15（予想）
+  end: 2027-05-20（予想）
   location: TBA (USA)
   deadline:
-    text: 11月上旬（予想：ASNR 2026は11/5締切）
+    text: 2026/11月上旬（予想：ASNR 2026は11/5締切）
     sort: 2026-11-05
     until: 2026-11-05
     type: estimated
@@ -145,7 +145,7 @@
   end: 2026-10-03
   location: Girona, Spain
   deadline:
-    text: 5–6月頃（予想）
+    text: 2026/5–6月頃（予想）
     sort: 2026-05-31
     until: 2026-06-30
     type: estimated
@@ -159,7 +159,7 @@
   end: 2027-06-30
   location: Toronto, Canada
   deadline:
-    text: 11月上旬〜12月中旬（予想：OHBM2026は11/3–12/15）
+    text: 2026/11月上旬〜12月中旬（予想：OHBM2026は11/3–12/15）
     sort: 2026-12-15
     until: 2026-12-15
     type: estimated
@@ -187,7 +187,7 @@
   end: 2026-07-25
   location: 東京、神田 (Urban Net Kanda Conference)
   deadline:
-    text: 4月頃（予想：例年春に募集開始）
+    text: 2026/4月頃（予想：例年春に募集開始）
     sort: 2026-04-15
     until: 2026-04-30
     type: estimated
