@@ -1,0 +1,101 @@
+name: "締切・日程の更新"
+description: "既存の学会について、開催日程や演題締切の確定情報を反映します"
+title: "[Update] <学会名> <年>"
+labels: ["update"]
+body:
+  - type: input
+    id: conf_name
+    attributes:
+      label: 学会名（data/conferences.yml の name）
+      placeholder: "例：RSNA 2026"
+    validations:
+      required: true
+
+  - type: input
+    id: conf_url
+    attributes:
+      label: 公式URL（根拠リンク）
+      placeholder: "例：https://www.rsna.org/annual-meeting/abstract-submission"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: what
+    attributes:
+      label: 更新内容
+      multiple: true
+      options:
+        - 演題締切
+        - 開催日程
+        - 開催地
+        - URL
+        - その他
+    validations:
+      required: true
+
+  - type: input
+    id: start
+    attributes:
+      label: start（YYYY-MM-DD、分かる場合）
+      placeholder: "例：2026-11-29"
+    validations:
+      required: false
+
+  - type: input
+    id: end
+    attributes:
+      label: end（YYYY-MM-DD、分かる場合）
+      placeholder: "例：2026-12-03"
+    validations:
+      required: false
+
+  - type: input
+    id: location
+    attributes:
+      label: location（国内は City (Venue)、海外は City, Country）
+      placeholder: "例：Chicago, USA"
+    validations:
+      required: false
+
+  - type: input
+    id: deadline_text
+    attributes:
+      label: deadline.text（表示用：自由記述）
+      placeholder: "例：2026/05/06 12:00 CT"
+    validations:
+      required: false
+
+  - type: input
+    id: deadline_sort
+    attributes:
+      label: deadline.sort（ソート・期限判定用：YYYY-MM-DD）
+      placeholder: "例：2026-05-06"
+    validations:
+      required: false
+
+  - type: input
+    id: deadline_until
+    attributes:
+      label: deadline.until（期間がある場合の終点：YYYY-MM-DD）
+      placeholder: "例：2026-05-07"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: deadline_type
+    attributes:
+      label: deadline.type
+      options:
+        - fixed
+        - estimated
+        - unknown
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足（公式ページの該当箇所、時刻・TZ、スクショ等）
+      placeholder: "例：締切が延長された／タイムゾーンはCT など"
+    validations:
+      required: false

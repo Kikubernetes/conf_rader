@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Conferences 一覧（サイト）
+    url: https://kikubernetes.github.io/conf_rader/conferences/
+    about: "一覧ページはこちら"

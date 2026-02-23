@@ -1,0 +1,93 @@
+name: "学会の追加"
+description: "新しい学会を data/conferences.yml に追加します"
+title: "[Add] <学会名> <年>"
+labels: ["add"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 学会名（表示名）
+      placeholder: "例：ESMRMB 2026"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: area
+      options:
+        - domestic
+        - international
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 公式URL（根拠リンク）
+      placeholder: "例：https://www.esmrmb.org/"
+    validations:
+      required: true
+
+  - type: input
+    id: start
+    attributes:
+      label: start（YYYY-MM-DD、未定なら空）
+      placeholder: "例：2026-09-30"
+    validations:
+      required: false
+
+  - type: input
+    id: end
+    attributes:
+      label: end（YYYY-MM-DD、未定なら空）
+      placeholder: "例：2026-10-03"
+    validations:
+      required: false
+
+  - type: input
+    id: location
+    attributes:
+      label: location（国内は City (Venue)、海外は City, Country）
+      placeholder: "例：Girona, Spain"
+    validations:
+      required: false
+
+  - type: input
+    id: deadline_text
+    attributes:
+      label: deadline.text（表示用：自由記述）
+      placeholder: "例：10月上旬（予想）"
+    validations:
+      required: false
+
+  - type: input
+    id: deadline_sort
+    attributes:
+      label: deadline.sort（ソート用：YYYY-MM-DD、分かる範囲で）
+      placeholder: "例：2025-10-05"
+    validations:
+      required: false
+
+  - type: input
+    id: deadline_until
+    attributes:
+      label: deadline.until（期間がある場合）
+      placeholder: "例：2025-10-15"
+    validations:
+      required: false
+
+  - type: textarea
+    id: tags
+    attributes:
+      label: tags（カンマ区切り）
+      placeholder: "例：MRI, neuroradiology, brain-function"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足（演題募集ページURL、締切の根拠、時刻/TZなど）
+    validations:
+      required: false
