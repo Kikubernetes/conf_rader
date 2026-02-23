@@ -1,5 +1,5 @@
 # --- 日本神経放射線学会（次回は未公表のため推測） ---
-- name: 日本神経放射線学会（次回：推定）
+- name: 日本神経放射線学会
   area: domestic
   start: 2027-02-19
   end: 2027-02-20
@@ -125,7 +125,7 @@
   tags: [nuclear-medicine]
 
 # --- ASNR（次回情報が未公表のため推測。締切時期はASNR 2026実績から） ---
-- name: ASNR Annual Meeting（次回：推定）
+- name: ASNR Annual Meeting 2027
   area: international
   start: 2027-05-15（予想）
   end: 2027-05-20（予想）
