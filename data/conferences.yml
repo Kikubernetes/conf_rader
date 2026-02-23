@@ -1,0 +1,12 @@
+- name: ISMRM 2026(test)
+  area: international
+  start: 2026-05-09
+  end: 2026-05-14
+  location: Bordeaux, France
+  deadline:
+    text: 10月上旬（予想）
+    sort: 2025-10-05
+    until: 2025-10-15
+    type: estimated
+  url: https://example.org
+  tags: [MRI]

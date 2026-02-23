@@ -1,0 +1,14 @@
+site_name: My Conference Radar
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Conferences: conferences.md
+
+extra_javascript:
+  - https://cdn.datatables.net/2.0.8/js/dataTables.min.js
+  - assets/js/conferences.js
+
+extra_css:
+  - https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css
