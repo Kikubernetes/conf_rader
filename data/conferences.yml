@@ -5,11 +5,11 @@
   end: 2027-02-06
   location: 熊本 (熊本城ホール)
   deadline:
-    text: 2026/10月中旬（予想：前年は10/16正午）
+    text: 未公表（2026/06/01確認。前年実績から2026/10月中旬頃と推定）
     sort: 2026-10-15
     until: 2026-10-16
     type: estimated
-  url: https://neurorad.jp/taikai/next/
+  url: https://www.k-gakkai.jp/jsnr56/
   tags: [neuroradiology, MRI]
 
 # --- 日本医学放射線学会総会（第86回） ---
@@ -17,9 +17,9 @@
   area: domestic
   start: 2027-04-15
   end: 2027-04-18
-  location: 横浜 (Pacifico Yokohama)
+  location: 横浜 (パシフィコ横浜)
   deadline:
-    text: 2026/10月中旬（予想：前年は10/17正午）
+    text: 未公表（2026/06/01確認。前年実績から2026/10月中旬頃と推定）
     sort: 2026-10-16
     until: 2026-10-23
     type: estimated
@@ -33,26 +33,12 @@
   end: 2026-09-13
   location: 旭川 (旭川市民文化会館、OMO7旭川)
   deadline:
-    text: 2026/5月下旬（予想：前年は6/30（10月開催））
-    sort: 2026-06-19
-    until: 2026-06-30
-    type: estimated
+    text: 2026/04/24–2026/05/28 正午（延長後。募集終了）
+    sort: 2026-05-28
+    until: 2026-05-28
+    type: fixed
   url: https://www.congre.co.jp/jrs62/
   tags: [radiology, neuroradiology]
-
-# --- JHBM（直近は締切が過去：Show past deadlinesで表示切替） ---
-- name: 第28回日本ヒト脳マッピング学会大会（JHBM 2026）
-  area: domestic
-  start: 2026-03-20
-  end: 2026-03-21
-  location: 姫路 (Acrié Himeji)
-  deadline:
-    text: 2025/12/22 17:00（延長後）
-    sort: 2025-12-22
-    until: 2025-12-22
-    type: fixed
-  url: https://plaza.umin.ac.jp/jhbm28/
-  tags: [brain-function, MRI]
 
 # --- JHBM 2027 ---
 - name: 第29回日本ヒト脳マッピング学会大会（JHBM 2027）
@@ -61,25 +47,25 @@
   end: 2027-03-27
   location: 大阪 (千里ライフサイエンスセンター)
   deadline:
-    text: 2026/12月下旬（予想：前年は12/22）
+    text: 未公表（2026/06/01確認。前年実績から2026/12月下旬頃と推定）
     sort: 2026-12-22
     until: 2026-12-26
     type: estimated
-  url: https://jhbm.org/meetings/record/
+  url: https://jhbm.org/meetings/
   tags: [brain-function, MRI]
 
-# --- ECR（次回：ECR 2027。締切は前年の募集期間から推測） ---
+# --- ECR 2027 ---
 - name: ECR 2027
   area: international
   start: 2027-03-03
   end: 2027-03-07
   location: Vienna, Austria
   deadline:
-    text: 2026/8月上旬〜10月上旬（予想：ECR2026は8/4–10/5）
-    sort: 2026-10-05
-    until: 2026-10-05
-    type: estimated
-  url: https://myesr.org/congress/about-ecr/
+    text: 2026/08/03–2026/09/30（Oral/Poster/Student abstracts）
+    sort: 2026-09-30
+    until: 2026-09-30
+    type: fixed
+  url: https://myesr.org/congress/
   tags: [radiology]
 
 # --- JSMRM（第54回） ---
@@ -87,12 +73,12 @@
   area: domestic
   start: 2026-10-16
   end: 2026-10-18
-  location: 鹿児島 (SHIROYAMA HOTEL kagoshima)
+  location: 鹿児島 (城山ホテル鹿児島)
   deadline:
-    text: 2026/5–6月頃（予想）
-    sort: 2026-05-31
-    until: 2026-06-30
-    type: estimated
+    text: 2026/04/27–2026/06/19 12:00
+    sort: 2026-06-19
+    until: 2026-06-19
+    type: fixed
   url: https://www.c-linkage.co.jp/jsmrm2026/
   tags: [MRI]
 
@@ -103,92 +89,106 @@
   end: 2026-12-03
   location: Chicago, USA
   deadline:
-    text: 2026/05/06 12:00 CT（受付中）
+    text: 2026/05/06 12:00 CT（募集終了）
     sort: 2026-05-06
     until: 2026-05-06
     type: fixed
   url: https://www.rsna.org/annual-meeting/abstract-submission
   tags: [radiology]
 
-# --- SNMMI（次回開催日だけ公式で確認できたため、締切は推測） ---
+# --- SNMMI ---
 - name: SNMMI Annual Meeting 2027
   area: international
   start: 2027-06-05
   end: 2027-06-08
   location: Washington, DC, USA
   deadline:
-    text: 2027/1月中旬（予想：前年は1/13）
+    text: 未公表（2026/06/01確認。前年実績から2027/01月中旬頃と推定）
     sort: 2027-01-13
     until: 2027-02-06
     type: estimated
   url: https://snmmi.org/AM/Web/Education-and-Meetings/Upcoming-Events.aspx
   tags: [nuclear-medicine]
 
-# --- ASNR（次回情報が未公表のため推測。締切時期はASNR 2026実績から） ---
-- name: ASNR Annual Meeting 2027
+# --- ASNR ---
+- name: ASHNR/ASNR 2027 Joint Annual Meeting
   area: international
-  start: 2027-05-15
-  end: 2027-05-20
-  location: TBA (USA)
+  start: 2027-05-14
+  end: 2027-05-19
+  location: San Diego, CA, USA
   deadline:
-    text: 2026/11月上旬（予想：ASNR 2026は11/5締切）
-    sort: 2026-11-05
-    until: 2026-11-05
+    text: 未公表（ASNR calendarでは例年9月募集開始・11月締切。2026年会は2025/12/07締切）
+    sort: 2026-11-30
+    until: 2026-12-07
     type: estimated
-  url: https://www.asnr.org/
+  url: https://www.asnr.org/ashnr-asnr-annual-meeting-2027/
   tags: [neuroradiology]
 
-# --- ESMRMB（開催日・開催地は公式、締切は未公表のため推測） ---
-- name: ESMRMB 2026
+# --- ESNR ---
+- name: XXIII Symposium Neuroradiologicum & 49th ESNR Annual Meeting 2026
+  area: international
+  start: 2026-09-30
+  end: 2026-10-04
+  location: London, United Kingdom (QEII Conference Centre)
+  deadline:
+    text: 2026/06/14（CET）
+    sort: 2026-06-14
+    until: 2026-06-14
+    type: fixed
+  url: https://www.esnr.org/event-details/6941
+  tags: [neuroradiology]
+
+# --- ESMRMB ---
+- name: 42nd ESMRMB Annual Scientific Meeting 2026
   area: international
   start: 2026-09-30
   end: 2026-10-03
-  location: Girona, Spain
+  location: Girona, Spain (Palau de Congressos de Girona)
   deadline:
-    text: 2026/5–6月頃（予想）
-    sort: 2026-05-31
-    until: 2026-06-30
-    type: estimated
-  url: https://www.esmrmb.org/
+    text: 2026/05/27 17:00 CEST（延長後。最終締切）
+    sort: 2026-05-27
+    until: 2026-05-27
+    type: fixed
+  url: https://esmrmbcongress.org/
   tags: [MRI]
 
-# --- OHBM　2027 ---
+# --- OHBM 2027 ---
 - name: OHBM 2027
   area: international
   start: 2027-06-26
   end: 2027-06-30
   location: Toronto, Canada
   deadline:
-    text: 2026/11月上旬〜12月中旬（予想：OHBM2026は11/3–12/15）
+    text: 未公表（2026/06/01確認。OHBM 2026は2025/11/03–12/15募集）
     sort: 2026-12-15
     until: 2026-12-15
     type: estimated
-  url: https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3298
+  url: https://humanbrainmapping.org/FutureMeetings/
   tags: [brain-function, MRI]
 
 # --- ISMRM 2027 ---
-- name: ISMRM 2027
+- name: ISMRM & ISMRT Annual Meeting & Exhibition 2027
   area: international
   start: 2027-05-08
   end: 2027-05-13
-  location: Vancouver, Canada
+  location: Vancouver, BC, Canada
   deadline:
-    text: 2026/10/28（公式）
+    text: 2026/10/28（公式サイト掲載）
     sort: 2026-10-28
     until: 2026-10-28
     type: fixed
   url: https://www.ismrm.org/meetings-workshops/future-ismrm-meetings/
   tags: [MRI]
 
-# --- 臨床MR脳機能研究会（公式では演題募集・事前参加登録とも未定） ---
+# --- 臨床MR脳機能研究会 ---
 - name: 第37回 臨床MR脳機能研究会
   area: domestic
   start: 2026-07-25
   end: 2026-07-25
-  location: 東京、神田 (アーバンネット神田カンファレンス)
+  location: 東京、神田 (アーバンネット神田カンファレンス、ハイブリッド開催)
   deadline:
-    text: 未定（2026/04/15時点。公式では演題募集・事前参加登録とも未定）
-    sort: 2026-05-31
+    text: 未公表（2026/06/01確認。公式では演題募集締切の掲載なし）
+    sort: 2026-06-30
     until: 2026-06-30
     type: estimated
   url: https://radiology-tokushima.com/rinshomr/schedule/
@@ -199,13 +199,13 @@
   area: domestic
   start: 2026-11-19
   end: 2026-11-21
-  location: 姫路 (Acrié Himeji)
+  location: 姫路 (アクリエひめじ)
   deadline:
-    text: 2026/04/01–2026/05/07
-    sort: 2026-05-07
-    until: 2026-05-07
+    text: 2026/04/01–2026/05/14（延長後。募集終了）
+    sort: 2026-05-14
+    until: 2026-05-14
     type: fixed
-  url: https://www.c-linkage.co.jp/jsnm-jsnmt2026/outline.php
+  url: https://www.c-linkage.co.jp/jsnm-jsnmt2026/
   tags: [nuclear-medicine]
 
 # --- ASFNR 2026 ---
@@ -213,11 +213,11 @@
   area: international
   start: 2026-10-09
   end: 2026-10-12
-  location: Newport Beach, CA, USA
+  location: Newport Beach, CA, USA (VEA Newport Beach)
   deadline:
-    text: 2026/06/19（受付中）
+    text: 2026/06/19（公式SNSで確認）
     sort: 2026-06-19
     until: 2026-06-19
     type: fixed
-  url: https://www.asfnr.org/
+  url: https://www.asfnr.org/asfnr-annual-meeting
   tags: [neuroradiology, brain-function, MRI]

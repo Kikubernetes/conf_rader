@@ -1,0 +1,16 @@
+1. 更新版YAMLをダウンロード
+今回作成したファイル：
+conferences_checked_20260601.yml
+リポジトリ内の既存ファイルを置き換える
+ファイル名は最終的に conferences.yml に
+
+2. GitHubにアップロード／コミット
+
+cp conferences_checked_20260601.yml conferences.yml
+git add conferences.yml
+git commit -m "Update conference schedule information"
+git push
+
+3. ページを再生成・反映
+GitHub Pagesや静的サイトで表示している場合は、通常 push 後に自動で反映
+反映されない場合は、Actionsのビルドが失敗していないか確認
