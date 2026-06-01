@@ -187,10 +187,10 @@
   end: 2026-07-25
   location: 東京、神田 (アーバンネット神田カンファレンス、ハイブリッド開催)
   deadline:
-    text: 未公表（2026/06/01確認。公式では演題募集締切の掲載なし）
-    sort: 2026-06-30
-    until: 2026-06-30
-    type: estimated
+    text: 2026/05/01-2026/05/31（募集終了）
+    sort: 2026-05-31
+    until: 2026-05-31
+    type: fixed
   url: https://radiology-tokushima.com/rinshomr/schedule/
   tags: [brain-function, MRI]
 
