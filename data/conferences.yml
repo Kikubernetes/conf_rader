@@ -221,3 +221,414 @@
     type: fixed
   url: https://www.asfnr.org/asfnr-annual-meeting
   tags: [neuroradiology, brain-function, MRI]
+
+# =====================================================================
+# v2 additions: neuroscience / psychiatry / brain function conferences
+# Updated: 2026-07-22
+# =====================================================================
+
+# --- NEURO2026 ---
+- name: NEURO2026
+  area: domestic
+  start: 2026-07-30
+  end: 2026-08-02
+  location: 神戸 (神戸コンベンションセンター)
+  deadline:
+    text: 一般演題・Late-breakingとも募集終了
+    sort: 2026-02-05
+    until: 2026-02-05
+    type: fixed
+  url: https://neuro2026.jnss.org/
+  tags: [neuroscience, brain-function, psychiatry]
+
+# --- 日本神経学会 ---
+- name: 第68回日本神経学会学術大会
+  area: domestic
+  start: 2027-05-19
+  end: 2027-05-22
+  location: 新潟 (新潟コンベンションセンター)
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.neurology-jp.org/sokaitiho/sokai_annai.html
+  tags: [neurology, neuroscience, brain-function]
+
+# --- 日本精神神経学会 ---
+- name: 第123回日本精神神経学会学術総会
+  area: domestic
+  start: 2027-06-24
+  end: 2027-06-26
+  location: 名古屋 (名古屋国際会議場)
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.jspn.or.jp/modules/meeting/index.php?content_id=4
+  tags: [psychiatry, neuroscience, brain-function]
+
+# --- 日本てんかん学会 ---
+- name: 第59回日本てんかん学会学術集会
+  area: domestic
+  start: 2026-10-01
+  end: 2026-10-03
+  location: 新潟 (朱鷺メッセ)
+  deadline:
+    text: 2026/05/19（募集終了）
+    sort: 2026-05-19
+    until: 2026-05-19
+    type: fixed
+  url: https://jes-jp.org/meeting/gakujutumeeting.html
+  tags: [epilepsy, neurology, brain-function]
+
+# --- 日本認知症学会 ---
+- name: 第45回日本認知症学会学術集会
+  area: domestic
+  start: 2026-11-13
+  end: 2026-11-15
+  location: つくば (つくば国際会議場・つくばカピオ)
+  deadline:
+    text: 2026年5月（募集終了）
+    sort: 2026-05-31
+    until: 2026-05-31
+    type: fixed
+  url: https://square.umin.ac.jp/jcdp2026/
+  tags: [dementia, neurology, brain-function, MRI]
+
+# --- 日本脳神経外科学会 ---
+- name: 日本脳神経外科学会第85回学術総会
+  area: domestic
+  start: 2026-10-21
+  end: 2026-10-23
+  location: 札幌 (札幌市民交流プラザほか)
+  deadline:
+    text: 2026/05/18（募集終了）
+    sort: 2026-05-18
+    until: 2026-05-18
+    type: fixed
+  url: https://www.congre.co.jp/jns2026/
+  tags: [neurosurgery, brain-function, epilepsy, MRI]
+
+# --- 日本脳卒中学会 ---
+- name: 日本脳卒中学会学術集会
+  area: domestic
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.jsts.gr.jp/
+  tags: [stroke, neurology, neuroradiology, MRI]
+
+# --- 日本脳卒中の外科学会 ---
+- name: 日本脳卒中の外科学会学術集会
+  area: domestic
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.jsscs.org/
+  tags: [stroke, neurosurgery, neuroradiology]
+
+# --- 日本脳循環代謝学会 ---
+- name: 日本脳循環代謝学会学術集会
+  area: domestic
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.cbfm.jp/
+  tags: [stroke, brain-function, nuclear-medicine, MRI]
+
+# --- 日本臨床神経生理学会 ---
+- name: 第56回日本臨床神経生理学会学術大会
+  area: domestic
+  start: 2026-11-12
+  end: 2026-11-14
+  location: 米子 (米子コンベンションセンターほか)
+  deadline:
+    text: 2026/06/30（募集終了）
+    sort: 2026-06-30
+    until: 2026-06-30
+    type: fixed
+  url: https://www.c-linkage.co.jp/jscn2026/
+  tags: [clinical-neurophysiology, EEG, brain-function]
+
+# --- 日本高次脳機能学会 ---
+- name: 第50回日本高次脳機能学会学術総会
+  area: domestic
+  start: 2026-11-05
+  end: 2026-11-06
+  location: 札幌 (ホテルライフォート札幌ほか)
+  deadline:
+    text: 2026/06/18（募集終了）
+    sort: 2026-06-18
+    until: 2026-06-18
+    type: fixed
+  url: https://www.jshbf50.jp/
+  tags: [higher-brain-function, neuropsychology, brain-function]
+
+# --- 日本脳神経超音波・栓子検出学会 ---
+- name: 日本脳神経超音波・栓子検出学会学術集会
+  area: domestic
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.jasne.jp/
+  tags: [stroke, ultrasound, neurology]
+
+# --- Society for Neuroscience ---
+- name: Society for Neuroscience Annual Meeting
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.sfn.org/meetings
+  tags: [neuroscience, brain-function]
+
+# --- MICCAI ---
+- name: MICCAI 2027
+  area: international
+  start: 2027-09-26
+  end: 2027-10-01
+  location: Auckland, New Zealand
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://miccai.org/upcoming-conferences/
+  tags: [medical-imaging, AI, MRI]
+
+# --- MIDL ---
+- name: Medical Imaging with Deep Learning (MIDL)
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.midl.io/
+  tags: [medical-imaging, AI]
+
+# --- IPMI ---
+- name: Information Processing in Medical Imaging (IPMI)
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.ipmi.org/
+  tags: [medical-imaging, AI, MRI]
+
+# --- AES ---
+- name: American Epilepsy Society Annual Meeting
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.aesnet.org/annual-meeting
+  tags: [epilepsy, neurology, brain-function]
+
+# --- ILAE / International Epilepsy Congress ---
+- name: International Epilepsy Congress
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.ilae.org/congresses
+  tags: [epilepsy, neurology]
+
+# --- Asian & Oceanian Epilepsy Congress ---
+- name: Asian & Oceanian Epilepsy Congress (AOEC)
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.ilae.org/congresses
+  tags: [epilepsy, neurology]
+
+# --- ECNP ---
+- name: European College of Neuropsychopharmacology Congress
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.ecnp.eu/congresses
+  tags: [psychiatry, neuroscience, brain-function]
+
+# --- CINP ---
+- name: CINP World Congress
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://cinp.org/
+  tags: [psychiatry, neuroscience]
+
+# --- Society of Biological Psychiatry ---
+- name: Society of Biological Psychiatry Annual Meeting
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://sobp.org/annual-meeting/
+  tags: [psychiatry, neuroscience, brain-function, MRI]
+
+# --- AAIC ---
+- name: Alzheimer's Association International Conference (AAIC)
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://aaic.alz.org/
+  tags: [dementia, neurology, brain-function, MRI]
+
+# --- CTAD ---
+- name: Clinical Trials on Alzheimer's Disease (CTAD)
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.ctad-alzheimer.com/
+  tags: [dementia, clinical-trials]
+
+# --- Cognitive Neuroscience Society ---
+- name: Cognitive Neuroscience Society Annual Meeting
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.cogneurosociety.org/annual-meeting/
+  tags: [cognitive-neuroscience, brain-function, MRI]
+
+# --- AANS ---
+- name: AANS Annual Scientific Meeting
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.aans.org/annual-scientific-meeting/
+  tags: [neurosurgery, brain-function]
+
+# --- Congress of Neurological Surgeons ---
+- name: Congress of Neurological Surgeons Annual Meeting
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.cns.org/annual-meeting
+  tags: [neurosurgery, brain-function]
+
+# --- EANS ---
+- name: European Association of Neurosurgical Societies Congress
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://www.eans.org/page/congresses
+  tags: [neurosurgery, brain-function]
+
+# --- WFNS ---
+- name: World Federation of Neurosurgical Societies Congress
+  area: international
+  start: null
+  end: null
+  location: 未公表
+  deadline:
+    text: 未公表
+    sort: null
+    until: null
+    type: unknown
+  url: https://wfns.org/
+  tags: [neurosurgery]
