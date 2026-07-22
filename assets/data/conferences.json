@@ -1,0 +1,829 @@
+[
+  {
+    "name": "第56回日本神経放射線学会",
+    "area": "domestic",
+    "start": "2027-02-05",
+    "end": "2027-02-06",
+    "location": "熊本 (熊本城ホール)",
+    "deadline": {
+      "text": "未公表（2026/06/01確認。前年実績から2026/10月中旬頃と推定）",
+      "sort": "2026-10-15",
+      "until": "2026-10-16",
+      "type": "estimated"
+    },
+    "url": "https://www.k-gakkai.jp/jsnr56/",
+    "tags": [
+      "neuroradiology",
+      "MRI"
+    ]
+  },
+  {
+    "name": "第86回日本医学放射線学会総会（JRS 2027 / JRC2027）",
+    "area": "domestic",
+    "start": "2027-04-15",
+    "end": "2027-04-18",
+    "location": "横浜 (パシフィコ横浜)",
+    "deadline": {
+      "text": "未公表（2026/06/01確認。前年実績から2026/10月中旬頃と推定）",
+      "sort": "2026-10-16",
+      "until": "2026-10-23",
+      "type": "estimated"
+    },
+    "url": "https://www.radiology.jp/meeting/meeting.html",
+    "tags": [
+      "radiology",
+      "neuroradiology",
+      "MRI"
+    ]
+  },
+  {
+    "name": "第62回日本医学放射線学会秋季臨床大会（JRS62）",
+    "area": "domestic",
+    "start": "2026-09-11",
+    "end": "2026-09-13",
+    "location": "旭川 (旭川市民文化会館、OMO7旭川)",
+    "deadline": {
+      "text": "2026/04/24–2026/05/28 正午（延長後。募集終了）",
+      "sort": "2026-05-28",
+      "until": "2026-05-28",
+      "type": "fixed"
+    },
+    "url": "https://www.congre.co.jp/jrs62/",
+    "tags": [
+      "radiology",
+      "neuroradiology"
+    ]
+  },
+  {
+    "name": "第29回日本ヒト脳マッピング学会大会（JHBM 2027）",
+    "area": "domestic",
+    "start": "2027-03-26",
+    "end": "2027-03-27",
+    "location": "大阪 (千里ライフサイエンスセンター)",
+    "deadline": {
+      "text": "未公表（2026/06/01確認。前年実績から2026/12月下旬頃と推定）",
+      "sort": "2026-12-22",
+      "until": "2026-12-26",
+      "type": "estimated"
+    },
+    "url": "https://jhbm.org/meetings/",
+    "tags": [
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "ECR 2027",
+    "area": "international",
+    "start": "2027-03-03",
+    "end": "2027-03-07",
+    "location": "Vienna, Austria",
+    "deadline": {
+      "text": "2026/08/03–2026/09/30（Oral/Poster/Student abstracts）",
+      "sort": "2026-09-30",
+      "until": "2026-09-30",
+      "type": "fixed"
+    },
+    "url": "https://myesr.org/congress/",
+    "tags": [
+      "radiology"
+    ]
+  },
+  {
+    "name": "第54回日本磁気共鳴医学会大会（JSMRM 2026）",
+    "area": "domestic",
+    "start": "2026-10-16",
+    "end": "2026-10-18",
+    "location": "鹿児島 (城山ホテル鹿児島)",
+    "deadline": {
+      "text": "2026/04/27–2026/06/19 12:00",
+      "sort": "2026-06-19",
+      "until": "2026-06-19",
+      "type": "fixed"
+    },
+    "url": "https://www.c-linkage.co.jp/jsmrm2026/",
+    "tags": [
+      "MRI"
+    ]
+  },
+  {
+    "name": "RSNA 2026",
+    "area": "international",
+    "start": "2026-11-29",
+    "end": "2026-12-03",
+    "location": "Chicago, USA",
+    "deadline": {
+      "text": "2026/05/06 12:00 CT（募集終了）",
+      "sort": "2026-05-06",
+      "until": "2026-05-06",
+      "type": "fixed"
+    },
+    "url": "https://www.rsna.org/annual-meeting/abstract-submission",
+    "tags": [
+      "radiology"
+    ]
+  },
+  {
+    "name": "SNMMI Annual Meeting 2027",
+    "area": "international",
+    "start": "2027-06-05",
+    "end": "2027-06-08",
+    "location": "Washington, DC, USA",
+    "deadline": {
+      "text": "未公表（2026/06/01確認。前年実績から2027/01月中旬頃と推定）",
+      "sort": "2027-01-13",
+      "until": "2027-02-06",
+      "type": "estimated"
+    },
+    "url": "https://snmmi.org/AM/Web/Education-and-Meetings/Upcoming-Events.aspx",
+    "tags": [
+      "nuclear-medicine"
+    ]
+  },
+  {
+    "name": "ASHNR/ASNR 2027 Joint Annual Meeting",
+    "area": "international",
+    "start": "2027-05-14",
+    "end": "2027-05-19",
+    "location": "San Diego, CA, USA",
+    "deadline": {
+      "text": "未公表（ASNR calendarでは例年9月募集開始・11月締切。2026年会は2025/12/07締切）",
+      "sort": "2026-11-30",
+      "until": "2026-12-07",
+      "type": "estimated"
+    },
+    "url": "https://www.asnr.org/ashnr-asnr-annual-meeting-2027/",
+    "tags": [
+      "neuroradiology"
+    ]
+  },
+  {
+    "name": "XXIII Symposium Neuroradiologicum & 49th ESNR Annual Meeting 2026",
+    "area": "international",
+    "start": "2026-09-30",
+    "end": "2026-10-04",
+    "location": "London, United Kingdom (QEII Conference Centre)",
+    "deadline": {
+      "text": "2026/06/14（CET）",
+      "sort": "2026-06-14",
+      "until": "2026-06-14",
+      "type": "fixed"
+    },
+    "url": "https://www.esnr.org/event-details/6941",
+    "tags": [
+      "neuroradiology"
+    ]
+  },
+  {
+    "name": "42nd ESMRMB Annual Scientific Meeting 2026",
+    "area": "international",
+    "start": "2026-09-30",
+    "end": "2026-10-03",
+    "location": "Girona, Spain (Palau de Congressos de Girona)",
+    "deadline": {
+      "text": "2026/05/27 17:00 CEST（延長後。最終締切）",
+      "sort": "2026-05-27",
+      "until": "2026-05-27",
+      "type": "fixed"
+    },
+    "url": "https://esmrmbcongress.org/",
+    "tags": [
+      "MRI"
+    ]
+  },
+  {
+    "name": "OHBM 2027",
+    "area": "international",
+    "start": "2027-06-26",
+    "end": "2027-06-30",
+    "location": "Toronto, Canada",
+    "deadline": {
+      "text": "未公表（2026/06/01確認。OHBM 2026は2025/11/03–12/15募集）",
+      "sort": "2026-12-15",
+      "until": "2026-12-15",
+      "type": "estimated"
+    },
+    "url": "https://humanbrainmapping.org/FutureMeetings/",
+    "tags": [
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "ISMRM & ISMRT Annual Meeting & Exhibition 2027",
+    "area": "international",
+    "start": "2027-05-08",
+    "end": "2027-05-13",
+    "location": "Vancouver, BC, Canada",
+    "deadline": {
+      "text": "2026/10/28（公式サイト掲載）",
+      "sort": "2026-10-28",
+      "until": "2026-10-28",
+      "type": "fixed"
+    },
+    "url": "https://www.ismrm.org/meetings-workshops/future-ismrm-meetings/",
+    "tags": [
+      "MRI"
+    ]
+  },
+  {
+    "name": "第37回 臨床MR脳機能研究会",
+    "area": "domestic",
+    "start": "2026-07-25",
+    "end": "2026-07-25",
+    "location": "東京、神田 (アーバンネット神田カンファレンス、ハイブリッド開催)",
+    "deadline": {
+      "text": "2026/05/01-2026/05/31（募集終了）",
+      "sort": "2026-05-31",
+      "until": "2026-05-31",
+      "type": "fixed"
+    },
+    "url": "https://radiology-tokushima.com/rinshomr/schedule/",
+    "tags": [
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "第66回日本核医学会学術総会（JSNM 2026）",
+    "area": "domestic",
+    "start": "2026-11-19",
+    "end": "2026-11-21",
+    "location": "姫路 (アクリエひめじ)",
+    "deadline": {
+      "text": "2026/04/01–2026/05/14（延長後。募集終了）",
+      "sort": "2026-05-14",
+      "until": "2026-05-14",
+      "type": "fixed"
+    },
+    "url": "https://www.c-linkage.co.jp/jsnm-jsnmt2026/",
+    "tags": [
+      "nuclear-medicine"
+    ]
+  },
+  {
+    "name": "ASFNR 2026",
+    "area": "international",
+    "start": "2026-10-09",
+    "end": "2026-10-12",
+    "location": "Newport Beach, CA, USA (VEA Newport Beach)",
+    "deadline": {
+      "text": "2026/06/19（公式SNSで確認）",
+      "sort": "2026-06-19",
+      "until": "2026-06-19",
+      "type": "fixed"
+    },
+    "url": "https://www.asfnr.org/asfnr-annual-meeting",
+    "tags": [
+      "neuroradiology",
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "NEURO2026",
+    "area": "domestic",
+    "start": "2026-07-30",
+    "end": "2026-08-02",
+    "location": "神戸 (神戸コンベンションセンター)",
+    "deadline": {
+      "text": "一般演題・Late-breakingとも募集終了",
+      "sort": "2026-02-05",
+      "until": "2026-02-05",
+      "type": "fixed"
+    },
+    "url": "https://neuro2026.jnss.org/",
+    "tags": [
+      "neuroscience",
+      "brain-function",
+      "psychiatry"
+    ]
+  },
+  {
+    "name": "第68回日本神経学会学術大会",
+    "area": "domestic",
+    "start": "2027-05-19",
+    "end": "2027-05-22",
+    "location": "新潟 (新潟コンベンションセンター)",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.neurology-jp.org/sokaitiho/sokai_annai.html",
+    "tags": [
+      "neurology",
+      "neuroscience",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "第123回日本精神神経学会学術総会",
+    "area": "domestic",
+    "start": "2027-06-24",
+    "end": "2027-06-26",
+    "location": "名古屋 (名古屋国際会議場)",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.jspn.or.jp/modules/meeting/index.php?content_id=4",
+    "tags": [
+      "psychiatry",
+      "neuroscience",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "第59回日本てんかん学会学術集会",
+    "area": "domestic",
+    "start": "2026-10-01",
+    "end": "2026-10-03",
+    "location": "新潟 (朱鷺メッセ)",
+    "deadline": {
+      "text": "2026/05/19（募集終了）",
+      "sort": "2026-05-19",
+      "until": "2026-05-19",
+      "type": "fixed"
+    },
+    "url": "https://jes-jp.org/meeting/gakujutumeeting.html",
+    "tags": [
+      "epilepsy",
+      "neurology",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "第45回日本認知症学会学術集会",
+    "area": "domestic",
+    "start": "2026-11-13",
+    "end": "2026-11-15",
+    "location": "つくば (つくば国際会議場・つくばカピオ)",
+    "deadline": {
+      "text": "2026年5月（募集終了）",
+      "sort": "2026-05-31",
+      "until": "2026-05-31",
+      "type": "fixed"
+    },
+    "url": "https://square.umin.ac.jp/jcdp2026/",
+    "tags": [
+      "dementia",
+      "neurology",
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "日本脳神経外科学会第85回学術総会",
+    "area": "domestic",
+    "start": "2026-10-21",
+    "end": "2026-10-23",
+    "location": "札幌 (札幌市民交流プラザほか)",
+    "deadline": {
+      "text": "2026/05/18（募集終了）",
+      "sort": "2026-05-18",
+      "until": "2026-05-18",
+      "type": "fixed"
+    },
+    "url": "https://www.congre.co.jp/jns2026/",
+    "tags": [
+      "neurosurgery",
+      "brain-function",
+      "epilepsy",
+      "MRI"
+    ]
+  },
+  {
+    "name": "日本脳卒中学会学術集会",
+    "area": "domestic",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.jsts.gr.jp/",
+    "tags": [
+      "stroke",
+      "neurology",
+      "neuroradiology",
+      "MRI"
+    ]
+  },
+  {
+    "name": "日本脳卒中の外科学会学術集会",
+    "area": "domestic",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.jsscs.org/",
+    "tags": [
+      "stroke",
+      "neurosurgery",
+      "neuroradiology"
+    ]
+  },
+  {
+    "name": "日本脳循環代謝学会学術集会",
+    "area": "domestic",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.cbfm.jp/",
+    "tags": [
+      "stroke",
+      "brain-function",
+      "nuclear-medicine",
+      "MRI"
+    ]
+  },
+  {
+    "name": "第56回日本臨床神経生理学会学術大会",
+    "area": "domestic",
+    "start": "2026-11-12",
+    "end": "2026-11-14",
+    "location": "米子 (米子コンベンションセンターほか)",
+    "deadline": {
+      "text": "2026/06/30（募集終了）",
+      "sort": "2026-06-30",
+      "until": "2026-06-30",
+      "type": "fixed"
+    },
+    "url": "https://www.c-linkage.co.jp/jscn2026/",
+    "tags": [
+      "clinical-neurophysiology",
+      "EEG",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "第50回日本高次脳機能学会学術総会",
+    "area": "domestic",
+    "start": "2026-11-05",
+    "end": "2026-11-06",
+    "location": "札幌 (ホテルライフォート札幌ほか)",
+    "deadline": {
+      "text": "2026/06/18（募集終了）",
+      "sort": "2026-06-18",
+      "until": "2026-06-18",
+      "type": "fixed"
+    },
+    "url": "https://www.jshbf50.jp/",
+    "tags": [
+      "higher-brain-function",
+      "neuropsychology",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "日本脳神経超音波・栓子検出学会学術集会",
+    "area": "domestic",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.jasne.jp/",
+    "tags": [
+      "stroke",
+      "ultrasound",
+      "neurology"
+    ]
+  },
+  {
+    "name": "Society for Neuroscience Annual Meeting",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.sfn.org/meetings",
+    "tags": [
+      "neuroscience",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "MICCAI 2027",
+    "area": "international",
+    "start": "2027-09-26",
+    "end": "2027-10-01",
+    "location": "Auckland, New Zealand",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://miccai.org/upcoming-conferences/",
+    "tags": [
+      "medical-imaging",
+      "AI",
+      "MRI"
+    ]
+  },
+  {
+    "name": "Medical Imaging with Deep Learning (MIDL)",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.midl.io/",
+    "tags": [
+      "medical-imaging",
+      "AI"
+    ]
+  },
+  {
+    "name": "Information Processing in Medical Imaging (IPMI)",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.ipmi.org/",
+    "tags": [
+      "medical-imaging",
+      "AI",
+      "MRI"
+    ]
+  },
+  {
+    "name": "American Epilepsy Society Annual Meeting",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.aesnet.org/annual-meeting",
+    "tags": [
+      "epilepsy",
+      "neurology",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "International Epilepsy Congress",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.ilae.org/congresses",
+    "tags": [
+      "epilepsy",
+      "neurology"
+    ]
+  },
+  {
+    "name": "Asian & Oceanian Epilepsy Congress (AOEC)",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.ilae.org/congresses",
+    "tags": [
+      "epilepsy",
+      "neurology"
+    ]
+  },
+  {
+    "name": "European College of Neuropsychopharmacology Congress",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.ecnp.eu/congresses",
+    "tags": [
+      "psychiatry",
+      "neuroscience",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "CINP World Congress",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://cinp.org/",
+    "tags": [
+      "psychiatry",
+      "neuroscience"
+    ]
+  },
+  {
+    "name": "Society of Biological Psychiatry Annual Meeting",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://sobp.org/annual-meeting/",
+    "tags": [
+      "psychiatry",
+      "neuroscience",
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "Alzheimer's Association International Conference (AAIC)",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://aaic.alz.org/",
+    "tags": [
+      "dementia",
+      "neurology",
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "Clinical Trials on Alzheimer's Disease (CTAD)",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.ctad-alzheimer.com/",
+    "tags": [
+      "dementia",
+      "clinical-trials"
+    ]
+  },
+  {
+    "name": "Cognitive Neuroscience Society Annual Meeting",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.cogneurosociety.org/annual-meeting/",
+    "tags": [
+      "cognitive-neuroscience",
+      "brain-function",
+      "MRI"
+    ]
+  },
+  {
+    "name": "AANS Annual Scientific Meeting",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.aans.org/annual-scientific-meeting/",
+    "tags": [
+      "neurosurgery",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "Congress of Neurological Surgeons Annual Meeting",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.cns.org/annual-meeting",
+    "tags": [
+      "neurosurgery",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "European Association of Neurosurgical Societies Congress",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://www.eans.org/page/congresses",
+    "tags": [
+      "neurosurgery",
+      "brain-function"
+    ]
+  },
+  {
+    "name": "World Federation of Neurosurgical Societies Congress",
+    "area": "international",
+    "start": null,
+    "end": null,
+    "location": "未公表",
+    "deadline": {
+      "text": "未公表",
+      "sort": null,
+      "until": null,
+      "type": "unknown"
+    },
+    "url": "https://wfns.org/",
+    "tags": [
+      "neurosurgery"
+    ]
+  }
+]
